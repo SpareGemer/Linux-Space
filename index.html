@@ -1,0 +1,191 @@
+<html>
+	<head>
+		<title>ГЛАВНАЯ СТРАНИЦА - Linux space</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+		<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+	</head>
+	<body>
+		<!-- HEADER -->
+		<header>
+			<img src="img/logo-prozrachnoe.png" width="200" draggable="false" alt="Logo">
+			<div id="note">
+					<small>Внимание! Вы просматриваете beta-версию сайта. Могут быть недочеты. Пока-что сайт не очень оптимизирован для работы на мобильных устройствах. Версия:0.1.2@alpha test</small>
+					<a id="close">[закрыть]</a>
+					<script>
+ close = document.getElementById("close");
+ close.addEventListener('click', function() {
+   note = document.getElementById("note");
+   note.style.display = 'none';
+ }, false);
+</script>
+			</div>
+			<nav id="menu1">
+				<ul>
+					<li><div id="button-menu">
+    <a href="index.html" class="button b-red">Главная страница</a>
+	</div><img src="img/logo.png" width="50" draggable="false" alt="Logo"></li>
+					<li><div id="button-menu">
+    <a href="#m2" class="button b-red">Соц.сети</a>
+	</div>
+			<ul>
+				<li><div id="button-podmenu">
+    <a href="https://t.me/" class="button b-orange" target="_blank">Telegram - канал</a>
+	</div></li>
+				<li><div id="button-podmenu">
+    <a href="https://youtube.com/" class="button b-orange" target="_blank">YouTube - канал</a>
+	</div></li>
+				<li><div id="button-podmenu">
+    <a href="https://instagram.com/" class="button b-orange" target="_blank">Instagram</a>
+	</div></li>
+				<li><div id="button-podmenu">
+    <a href="https://discord.com/" class="button b-orange" target="_blank">Discord - сервер</a>
+	</div></li>
+			</ul>
+	</li>
+					<li>
+						<div id="button-menu">
+    <a href="#" class="button b-red">Публикации</a>
+	</div>
+						<ul>
+							<li><div id="button-podmenu">
+							<a href="post01.html" class="button b-orange">ЧЕМ ОТЛИЧАЕТСЯ CHROME ОТ CHROMIUM?</a>
+							</div></li>		<li><div id="button-podmenu">
+							<a href="post02.html" class="button b-orange">УСТАНОВКА LINUX LITE</a>
+							</div></li>		<li><div id="button-podmenu">
+							<a href="post03.html" class="button b-orange">УСТАНОВКА UBUNTU TOUCH НА XIAOMI MI A2</a>
+							</div></li>		<li><div id="button-podmenu">
+							<a href="post04.html" class="button b-orange">УСТАНОВКА LINUX РЯДОМ С WINDOWS 10</a>
+							</div></li>		<li><div id="button-podmenu">
+							<a href="post05.html" class="button b-orange">Как пользоваться текстовым редактором vim</a>
+							</div></li>		<li><div id="button-podmenu">
+							<a href="post06.html" class="button b-orange">ПЕРЕКЛЮЧЕНИЕ МЕЖДУ КОНСОЛЯМИ LINUX</a>
+							</div></li>		<li><div id="button-podmenu">
+							<a href="post07.html" class="button b-orange">Сравнение Raspberry Pi 3 и 4</a>
+							</div></li>
+						</ul>
+					</li>
+					<li><div id="button-menu">
+    <a href="about-of-site.html" class="button b-red">О сайте</a>
+	</div><img src="img/logo.png" width="50" draggable="false" alt="Logo" id="linuxoid"></li>
+	<li><script>
+ close = document.getElementById("linuxoid");
+ close.addEventListener('click', function() {
+   note = document.getElementById("button-menu");
+   note.style.display = 'none';
+   alert("Привет, Линуксоид");
+ }, false);
+</script><div id="button-menu">
+    <a href="programms.html" class="button b-red">Программы</a>
+	</div></li>
+	<li><div id="button-menu">
+    <a href="os.html" class="button b-red">ОC</a>
+	</div><img src="https://sun1.is74.userapi.com/s/v1/if1/kFN9LBdj9pt2E34QtvYv23i8THxOxIyO9v_Cqp_B12U-gAPpciI_8G0KXdIwuPH56vdlipnb.jpg?size=200x200&quality=96&crop=66,0,480,480&ava=1" width="50" draggable="false" alt="Logo"></li>
+				</ul>
+			</nav>
+			<br>
+			<a href="map.html"><img src="img/icons/map-2.png" width="300" draggable="false"></a>
+			<a href="post5.html"><img src="img/icons/vim-3.png" width="300" draggable="false"></a>
+		</header>
+		<!-- MAIN -->
+		<main>
+			<h2 class="last-content">ПОСЛЕДНИЕ ЗАПИСИ</h2>
+				<div class="post">
+					<img height="250" src="https://losst.ru/wp-content/uploads/2021/11/chrome-vs-chromium-390x250.png" alt="альт">
+					<div>
+						<h3>ЧЕМ ОТЛИЧАЕТСЯ CHROME ОТ CHROMIUM?</h3>
+						<p>Google Chrome - один из самых популярных веб-браузеров. Независимо от...</p>
+						<div id="button-read">
+							<a href="post01.html" class="button b-pink">Читать далее...</a>
+						</div>
+					</div>
+				</div>
+				<div class="post">
+					<img height="250" src="https://losst.ru/wp-content/uploads/2021/03/ustanovka-linux-lite-13-390x250.png" alt="альт">
+					<div>
+						<h3>УСТАНОВКА LINUX LITE</h3>
+						<p>Дистрибутив Linux Lite 5.6 разрабатывался на базе...</p>
+						<div id="button-read">
+							<a href="post02.html" class="button b-pink">Читать далее...</a>
+						</div>
+					</div>
+				</div>
+				<div class="post">
+					<img height="250" src="https://losst.ru/wp-content/uploads/2021/12/touch5-390x250.png" alt="альт">
+					<div>
+						<h3>УСТАНОВКА UBUNTU TOUCH НА XIAOMI MI A2</h3>
+						<p>Ubuntu Touch - операционная система для...</p>
+						<div id="button-read">
+							<a href="post03.html" class="button b-pink">Читать далее...</a>
+						</div>
+					</div>
+				</div>
+				<div class="post">
+					<img height="250" src="https://losst.ru/wp-content/uploads/2016/01/windowsLinux-100x100.png" alt="альт">
+					<div>
+						<h3>УСТАНОВКА LINUX РЯДОМ С WINDOWS 10</h3>
+						<p>Допустим, вы прочитали в интернете несколько статей и...</p>
+						<div id="button-read">
+							<a href="post04.html" class="button b-pink">Читать далее...</a>
+						</div>
+					</div>
+				</div>
+				<div class="post">
+				<img height="250" src="https://losst.ru/wp-content/uploads/2016/08/vimstickers.png" alt="альт">
+					<div>
+						<h3>Как пользоваться текстовым редактором vim</h3>
+						<p>Опытные пользователи Linux часто используют терминал, потому что так можно намного быстрее выполнить необходимые действия. Во время настройки системы нам довольно часто приходится редактировать различные файлы. Это могут быть настройки программ, какие-нибудь данные или обычные …</p>
+						<div id="button-read">
+							<a href="post05.html" class="button b-pink">Читать далее...</a>
+						</div>
+					</div>
+				</div>
+				<div class="post">
+				<img height="250" src="https://losst.ru/wp-content/uploads/2020/09/console1-390x250.png" alt="альт">
+					<div>
+						<h3>ПЕРЕКЛЮЧЕНИЕ МЕЖДУ КОНСОЛЯМИ LINUX</h3>
+						<p>В Linux по умолчанию доступно целых двенадцать так...</p>
+						<div id="button-read">
+							<a href="post06.html" class="button b-pink">Читать далее...</a>
+						</div>
+					</div>
+				</div>
+				<div class="post">
+				<img height="250" src="https://losst.ru/wp-content/uploads/2021/12/Raspberry-pi-3-vs-4-390x250.jpg" alt="альт">
+					<div>
+						<h3>Сравнение Raspberry Pi 3 и 4</h3>
+						<p>Raspberry Pi – это недорогой одноплатный компьютер, который подходит для решения многих задач. До выхода..</p>
+						<div id="button-read">
+							<a href="post07.html" class="button b-pink">Читать далее...</a>
+						</div>
+					</div>
+				</div>
+				<h2 align="center">Вы добрались до конца</h2>
+		</main>
+		<!-- FOOTER -->
+		<footer>
+			<div>
+				<div>
+					<div>
+						<img src="img/logo-grey.png" width="200" draggable="false" alt="Logo">
+					</div>
+					<div class="footer-columns">
+						<div class="footer-column">
+						<h3>Исходный код - by Yaroslav Kuchinskiy
+						</div>
+						<div class="footer-column">
+							Email: <a href="mailto:noreply@linux">noreply@linux.space</a>
+							</strong>
+							<small><a href="about-of-site.html"><h5>Упоминания</h5></a></small>
+						</div>
+					</div>
+				</div>
+				<center>
+					<small>Copyright linux@space 2022-2022@<small>
+				</center>
+			</div>
+		</footer>
+			<script src="js/js.js"></script>
+			<img src="https://2no.co/1Uk5a7">
+	</body>
+</html>
